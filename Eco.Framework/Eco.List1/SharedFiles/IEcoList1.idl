@@ -1,0 +1,16 @@
+﻿import "IEcoBase1.idl"; 
+
+[
+    uuid(5AADBCB4-846C-4576-827B-287B5E67A152)
+]
+interface IEcoList1 : IEcoUnknown {
+
+    uint32_t Count();
+    voidptr_t Item([in] uint32_t index);
+    uint32_t Add([in] voidptr_t value);
+    uint32_t IndexOf([in] voidptr_t value);
+    void InsertAt([in] uint32_t index, [in] voidptr_t value);
+    void Remove([in] voidptr_t value);
+    void RemoveAt([in] uint32_t index);
+    void Clear();
+};

@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01039DD125DAED6B0086219C /* CEcoList1.h in Headers */ = {isa = PBXBuildFile; fileRef = 01039DCF25DAED6B0086219C /* CEcoList1.h */; };
+		01039DD225DAED6B0086219C /* CEcoList1.h in Headers */ = {isa = PBXBuildFile; fileRef = 01039DCF25DAED6B0086219C /* CEcoList1.h */; };
+		01039DD325DAED6B0086219C /* CEcoList1Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = 01039DD025DAED6B0086219C /* CEcoList1Factory.h */; };
+		01039DD425DAED6B0086219C /* CEcoList1Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = 01039DD025DAED6B0086219C /* CEcoList1Factory.h */; };
+		01039DD925DAED770086219C /* IEcoList1.h in Headers */ = {isa = PBXBuildFile; fileRef = 01039DD725DAED770086219C /* IEcoList1.h */; };
+		01039DDA25DAED770086219C /* IEcoList1.h in Headers */ = {isa = PBXBuildFile; fileRef = 01039DD725DAED770086219C /* IEcoList1.h */; };
+		01039DDB25DAED770086219C /* IdEcoList1.h in Headers */ = {isa = PBXBuildFile; fileRef = 01039DD825DAED770086219C /* IdEcoList1.h */; };
+		01039DDC25DAED770086219C /* IdEcoList1.h in Headers */ = {isa = PBXBuildFile; fileRef = 01039DD825DAED770086219C /* IdEcoList1.h */; };
+		01039DE125DAED890086219C /* CEcoList1.c in Sources */ = {isa = PBXBuildFile; fileRef = 01039DDF25DAED890086219C /* CEcoList1.c */; };
+		01039DE225DAED890086219C /* CEcoList1.c in Sources */ = {isa = PBXBuildFile; fileRef = 01039DDF25DAED890086219C /* CEcoList1.c */; };
+		01039DE325DAED890086219C /* CEcoList1Factory.c in Sources */ = {isa = PBXBuildFile; fileRef = 01039DE025DAED890086219C /* CEcoList1Factory.c */; };
+		01039DE425DAED890086219C /* CEcoList1Factory.c in Sources */ = {isa = PBXBuildFile; fileRef = 01039DE025DAED890086219C /* CEcoList1Factory.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01039D7E25DADA930086219C /* lib53884AFC93C448ECAA929C8D3A562281.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = lib53884AFC93C448ECAA929C8D3A562281.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		01039DC625DAECCC0086219C /* 53884AFC93C448ECAA929C8D3A562281.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = 53884AFC93C448ECAA929C8D3A562281.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		01039DCF25DAED6B0086219C /* CEcoList1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEcoList1.h; path = ../../../HeaderFiles/CEcoList1.h; sourceTree = "<group>"; };
+		01039DD025DAED6B0086219C /* CEcoList1Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEcoList1Factory.h; path = ../../../HeaderFiles/CEcoList1Factory.h; sourceTree = "<group>"; };
+		01039DD725DAED770086219C /* IEcoList1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IEcoList1.h; path = ../../../SharedFiles/IEcoList1.h; sourceTree = "<group>"; };
+		01039DD825DAED770086219C /* IdEcoList1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IdEcoList1.h; path = ../../../SharedFiles/IdEcoList1.h; sourceTree = "<group>"; };
+		01039DDF25DAED890086219C /* CEcoList1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CEcoList1.c; path = ../../../SourceFiles/CEcoList1.c; sourceTree = "<group>"; };
+		01039DE025DAED890086219C /* CEcoList1Factory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CEcoList1Factory.c; path = ../../../SourceFiles/CEcoList1Factory.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01039D7C25DADA930086219C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01039DC425DAECCC0086219C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01039D7525DADA930086219C = {
+			isa = PBXGroup;
+			children = (
+				01039DCE25DAED540086219C /* Header Files */,
+				01039DCD25DAED4A0086219C /* Shared Files */,
+				01039DCC25DAED3E0086219C /* Source Files */,
+				01039D7F25DADA930086219C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01039D7F25DADA930086219C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01039D7E25DADA930086219C /* lib53884AFC93C448ECAA929C8D3A562281.a */,
+				01039DC625DAECCC0086219C /* 53884AFC93C448ECAA929C8D3A562281.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01039DCC25DAED3E0086219C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				01039DDF25DAED890086219C /* CEcoList1.c */,
+				01039DE025DAED890086219C /* CEcoList1Factory.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		01039DCD25DAED4A0086219C /* Shared Files */ = {
+			isa = PBXGroup;
+			children = (
+				01039DD825DAED770086219C /* IdEcoList1.h */,
+				01039DD725DAED770086219C /* IEcoList1.h */,
+			);
+			name = "Shared Files";
+			sourceTree = "<group>";
+		};
+		01039DCE25DAED540086219C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				01039DCF25DAED6B0086219C /* CEcoList1.h */,
+				01039DD025DAED6B0086219C /* CEcoList1Factory.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01039D7A25DADA930086219C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01039DD125DAED6B0086219C /* CEcoList1.h in Headers */,
+				01039DD925DAED770086219C /* IEcoList1.h in Headers */,
+				01039DD325DAED6B0086219C /* CEcoList1Factory.h in Headers */,
+				01039DDB25DAED770086219C /* IdEcoList1.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01039DC225DAECCC0086219C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01039DD225DAED6B0086219C /* CEcoList1.h in Headers */,
+				01039DDA25DAED770086219C /* IEcoList1.h in Headers */,
+				01039DD425DAED6B0086219C /* CEcoList1Factory.h in Headers */,
+				01039DDC25DAED770086219C /* IdEcoList1.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01039D7D25DADA930086219C /* Static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01039D8225DADA930086219C /* Build configuration list for PBXNativeTarget "Static" */;
+			buildPhases = (
+				01039D7A25DADA930086219C /* Headers */,
+				01039D7B25DADA930086219C /* Sources */,
+				01039D7C25DADA930086219C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Static;
+			productName = Eco.List1;
+			productReference = 01039D7E25DADA930086219C /* lib53884AFC93C448ECAA929C8D3A562281.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		01039DC525DAECCC0086219C /* Dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01039DC725DAECCC0086219C /* Build configuration list for PBXNativeTarget "Dynamic" */;
+			buildPhases = (
+				01039DC225DAECCC0086219C /* Headers */,
+				01039DC325DAECCC0086219C /* Sources */,
+				01039DC425DAECCC0086219C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dynamic;
+			productName = Dynamic;
+			productReference = 01039DC625DAECCC0086219C /* 53884AFC93C448ECAA929C8D3A562281.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01039D7625DADA930086219C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					01039D7D25DADA930086219C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					01039DC525DAECCC0086219C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 01039D7925DADA930086219C /* Build configuration list for PBXProject "Eco.List1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01039D7525DADA930086219C;
+			productRefGroup = 01039D7F25DADA930086219C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01039D7D25DADA930086219C /* Static */,
+				01039DC525DAECCC0086219C /* Dynamic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01039D7B25DADA930086219C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01039DE325DAED890086219C /* CEcoList1Factory.c in Sources */,
+				01039DE125DAED890086219C /* CEcoList1.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01039DC325DAECCC0086219C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01039DE425DAED890086219C /* CEcoList1Factory.c in Sources */,
+				01039DE225DAED890086219C /* CEcoList1.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01039D8025DADA930086219C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		01039D8125DADA930086219C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		01039D8325DADA930086219C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"OSATOMIC_USE_INLINED=1",
+					ECO_APPLE,
+					ECO_LIB,
+					UGUID_UTILITY,
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../SharedFiles,
+					../../../../Eco.FileSystemManagement1/SharedFiles,
+					../../../../Eco.MemoryManager1/SharedFiles,
+					../../../../Eco.Core1/SharedFiles,
+					../../../../Eco.InterfaceBus1/SharedFiles,
+				);
+				PRODUCT_NAME = 53884AFC93C448ECAA929C8D3A562281;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		01039D8425DADA930086219C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"OSATOMIC_USE_INLINED=1",
+					ECO_APPLE,
+					ECO_LIB,
+					UGUID_UTILITY,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../SharedFiles,
+					../../../../Eco.FileSystemManagement1/SharedFiles,
+					../../../../Eco.MemoryManager1/SharedFiles,
+					../../../../Eco.Core1/SharedFiles,
+					../../../../Eco.InterfaceBus1/SharedFiles,
+				);
+				PRODUCT_NAME = 53884AFC93C448ECAA929C8D3A562281;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		01039DC825DAECCC0086219C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"OSATOMIC_USE_INLINED=1",
+					ECO_APPLE,
+					ECO_DLL,
+					UGUID_UTILITY,
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../SharedFiles,
+					../../../../Eco.FileSystemManagement1/SharedFiles,
+					../../../../Eco.MemoryManager1/SharedFiles,
+					../../../../Eco.Core1/SharedFiles,
+					../../../../Eco.InterfaceBus1/SharedFiles,
+				);
+				PRODUCT_NAME = 53884AFC93C448ECAA929C8D3A562281;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		01039DC925DAECCC0086219C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"OSATOMIC_USE_INLINED=1",
+					ECO_APPLE,
+					ECO_DLL,
+					UGUID_UTILITY,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../SharedFiles,
+					../../../../Eco.FileSystemManagement1/SharedFiles,
+					../../../../Eco.MemoryManager1/SharedFiles,
+					../../../../Eco.Core1/SharedFiles,
+					../../../../Eco.InterfaceBus1/SharedFiles,
+				);
+				PRODUCT_NAME = 53884AFC93C448ECAA929C8D3A562281;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01039D7925DADA930086219C /* Build configuration list for PBXProject "Eco.List1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01039D8025DADA930086219C /* Debug */,
+				01039D8125DADA930086219C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01039D8225DADA930086219C /* Build configuration list for PBXNativeTarget "Static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01039D8325DADA930086219C /* Debug */,
+				01039D8425DADA930086219C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01039DC725DAECCC0086219C /* Build configuration list for PBXNativeTarget "Dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01039DC825DAECCC0086219C /* Debug */,
+				01039DC925DAECCC0086219C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01039D7625DADA930086219C /* Project object */;
+}
