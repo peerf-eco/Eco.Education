@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E4AC4226A03F1A009D3E45 /* CEcoCalculatorAFactory.c in Sources */ = {isa = PBXBuildFile; fileRef = 01E4AC4026A03F1A009D3E45 /* CEcoCalculatorAFactory.c */; };
+		01E4AC4326A03F1A009D3E45 /* CEcoCalculatorA.c in Sources */ = {isa = PBXBuildFile; fileRef = 01E4AC4126A03F1A009D3E45 /* CEcoCalculatorA.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01E4AC2826A03E53009D3E45 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01E4AC2A26A03E53009D3E45 /* lib4828F6552E4540E78121EBD220DC360E.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = lib4828F6552E4540E78121EBD220DC360E.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E4AC3C26A03EFE009D3E45 /* CEcoCalculatorAFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEcoCalculatorAFactory.h; path = ../../../HeaderFiles/CEcoCalculatorAFactory.h; sourceTree = "<group>"; };
+		01E4AC3D26A03EFE009D3E45 /* CEcoCalculatorA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEcoCalculatorA.h; path = ../../../HeaderFiles/CEcoCalculatorA.h; sourceTree = "<group>"; };
+		01E4AC3E26A03F0E009D3E45 /* IdEcoCalculatorA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IdEcoCalculatorA.h; path = ../../../SharedFiles/IdEcoCalculatorA.h; sourceTree = "<group>"; };
+		01E4AC3F26A03F0E009D3E45 /* IEcoCalculatorX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IEcoCalculatorX.h; path = ../../../SharedFiles/IEcoCalculatorX.h; sourceTree = "<group>"; };
+		01E4AC4026A03F1A009D3E45 /* CEcoCalculatorAFactory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CEcoCalculatorAFactory.c; path = ../../../SourceFiles/CEcoCalculatorAFactory.c; sourceTree = "<group>"; };
+		01E4AC4126A03F1A009D3E45 /* CEcoCalculatorA.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CEcoCalculatorA.c; path = ../../../SourceFiles/CEcoCalculatorA.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01E4AC2726A03E53009D3E45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E4AC2126A03E53009D3E45 = {
+			isa = PBXGroup;
+			children = (
+				01E4AC3B26A03ED4009D3E45 /* Header Files */,
+				01E4AC3A26A03EC9009D3E45 /* Shared Files */,
+				01E4AC3926A03EB0009D3E45 /* Source Files */,
+				01E4AC2B26A03E53009D3E45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01E4AC2B26A03E53009D3E45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01E4AC2A26A03E53009D3E45 /* lib4828F6552E4540E78121EBD220DC360E.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01E4AC3926A03EB0009D3E45 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				01E4AC4126A03F1A009D3E45 /* CEcoCalculatorA.c */,
+				01E4AC4026A03F1A009D3E45 /* CEcoCalculatorAFactory.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		01E4AC3A26A03EC9009D3E45 /* Shared Files */ = {
+			isa = PBXGroup;
+			children = (
+				01E4AC3E26A03F0E009D3E45 /* IdEcoCalculatorA.h */,
+				01E4AC3F26A03F0E009D3E45 /* IEcoCalculatorX.h */,
+			);
+			name = "Shared Files";
+			sourceTree = "<group>";
+		};
+		01E4AC3B26A03ED4009D3E45 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				01E4AC3D26A03EFE009D3E45 /* CEcoCalculatorA.h */,
+				01E4AC3C26A03EFE009D3E45 /* CEcoCalculatorAFactory.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01E4AC2926A03E53009D3E45 /* Static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E4AC3326A03E53009D3E45 /* Build configuration list for PBXNativeTarget "Static" */;
+			buildPhases = (
+				01E4AC2626A03E53009D3E45 /* Sources */,
+				01E4AC2726A03E53009D3E45 /* Frameworks */,
+				01E4AC2826A03E53009D3E45 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Static;
+			productName = Eco.CalculatorA;
+			productReference = 01E4AC2A26A03E53009D3E45 /* lib4828F6552E4540E78121EBD220DC360E.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01E4AC2226A03E53009D3E45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					01E4AC2926A03E53009D3E45 = {
+						CreatedOnToolsVersion = 12.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 01E4AC2526A03E53009D3E45 /* Build configuration list for PBXProject "Eco.CalculatorA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01E4AC2126A03E53009D3E45;
+			productRefGroup = 01E4AC2B26A03E53009D3E45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01E4AC2926A03E53009D3E45 /* Static */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01E4AC2626A03E53009D3E45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E4AC4226A03F1A009D3E45 /* CEcoCalculatorAFactory.c in Sources */,
+				01E4AC4326A03F1A009D3E45 /* CEcoCalculatorA.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01E4AC3126A03E53009D3E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01E4AC3226A03E53009D3E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01E4AC3426A03E53009D3E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ECO_LIB,
+					UGUID_UTILITY,
+					ECO_APPLE,
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../SharedFiles,
+					"${ECO_FRAMEWORK}/Eco.FileSystemManagement1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.MemoryManager1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Core1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.InterfaceBus1/SharedFiles",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = 4828F6552E4540E78121EBD220DC360E;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01E4AC3526A03E53009D3E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ECO_LIB,
+					UGUID_UTILITY,
+					ECO_APPLE,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../SharedFiles,
+					"${ECO_FRAMEWORK}/Eco.FileSystemManagement1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.MemoryManager1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Core1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.InterfaceBus1/SharedFiles",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = 4828F6552E4540E78121EBD220DC360E;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E4AC2526A03E53009D3E45 /* Build configuration list for PBXProject "Eco.CalculatorA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E4AC3126A03E53009D3E45 /* Debug */,
+				01E4AC3226A03E53009D3E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E4AC3326A03E53009D3E45 /* Build configuration list for PBXNativeTarget "Static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E4AC3426A03E53009D3E45 /* Debug */,
+				01E4AC3526A03E53009D3E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01E4AC2226A03E53009D3E45 /* Project object */;
+}

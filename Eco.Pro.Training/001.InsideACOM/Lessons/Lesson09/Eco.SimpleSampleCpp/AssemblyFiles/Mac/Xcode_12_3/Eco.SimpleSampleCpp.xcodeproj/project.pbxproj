@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01827D52298FE403006A177F /* EcoSimpleSampleCpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01827D51298FE403006A177F /* EcoSimpleSampleCpp.cpp */; };
+		01827D5B298FE617006A177F /* lib00000000000000000000000000000100.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01827D5A298FE617006A177F /* lib00000000000000000000000000000100.a */; };
+		01827D5E298FE645006A177F /* lib00000000000000000000000042757331.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01827D5D298FE645006A177F /* lib00000000000000000000000042757331.a */; };
+		01827D60298FE658006A177F /* lib0000000000000000000000004D656D31.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01827D5F298FE658006A177F /* lib0000000000000000000000004D656D31.a */; };
+		01827D62298FE66B006A177F /* lib00000000000000000000000046534D31.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01827D61298FE66B006A177F /* lib00000000000000000000000046534D31.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01827D36298FDD8B006A177F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01827D38298FDD8B006A177F /* Eco.SimpleSampleCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Eco.SimpleSampleCpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		01827D48298FE3F7006A177F /* IEcoMemoryManager1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IEcoMemoryManager1.hpp; path = ../../../SharedFiles/IEcoMemoryManager1.hpp; sourceTree = "<group>"; };
+		01827D49298FE3F7006A177F /* IEcoSystem1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IEcoSystem1.hpp; path = ../../../SharedFiles/IEcoSystem1.hpp; sourceTree = "<group>"; };
+		01827D4A298FE3F7006A177F /* IEcoMemoryAllocator1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IEcoMemoryAllocator1.hpp; path = ../../../SharedFiles/IEcoMemoryAllocator1.hpp; sourceTree = "<group>"; };
+		01827D4B298FE3F7006A177F /* IEcoBase1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IEcoBase1.hpp; path = ../../../SharedFiles/IEcoBase1.hpp; sourceTree = "<group>"; };
+		01827D4C298FE3F7006A177F /* IdEcoCalculatorA.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IdEcoCalculatorA.hpp; path = ../../../SharedFiles/IdEcoCalculatorA.hpp; sourceTree = "<group>"; };
+		01827D4D298FE3F7006A177F /* IEcoCalculatorX.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IEcoCalculatorX.hpp; path = ../../../SharedFiles/IEcoCalculatorX.hpp; sourceTree = "<group>"; };
+		01827D4E298FE3F7006A177F /* IEcoInterfaceBus1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IEcoInterfaceBus1.hpp; path = ../../../SharedFiles/IEcoInterfaceBus1.hpp; sourceTree = "<group>"; };
+		01827D4F298FE3F7006A177F /* IdEcoInterfaceBus1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IdEcoInterfaceBus1.hpp; path = ../../../SharedFiles/IdEcoInterfaceBus1.hpp; sourceTree = "<group>"; };
+		01827D50298FE3F7006A177F /* IdEcoMemoryManager1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = IdEcoMemoryManager1.hpp; path = ../../../SharedFiles/IdEcoMemoryManager1.hpp; sourceTree = "<group>"; };
+		01827D51298FE403006A177F /* EcoSimpleSampleCpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EcoSimpleSampleCpp.cpp; path = ../../../SourceFiles/EcoSimpleSampleCpp.cpp; sourceTree = "<group>"; };
+		01827D5A298FE617006A177F /* lib00000000000000000000000000000100.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib00000000000000000000000000000100.a; path = "../../../../../../../Eco.Framework/Eco.System1/BuildFiles/Mac/arm64 x86_64/StaticRelease/lib00000000000000000000000000000100.a"; sourceTree = "<group>"; };
+		01827D5D298FE645006A177F /* lib00000000000000000000000042757331.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib00000000000000000000000042757331.a; path = "../../../../../../../Eco.Framework/Eco.InterfaceBus1/BuildFiles/Mac/arm64 x86_64/StaticRelease/lib00000000000000000000000042757331.a"; sourceTree = "<group>"; };
+		01827D5F298FE658006A177F /* lib0000000000000000000000004D656D31.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib0000000000000000000000004D656D31.a; path = "../../../../../../../Eco.Framework/Eco.MemoryManager1/BuildFiles/Mac/arm64 x86_64/StaticRelease/lib0000000000000000000000004D656D31.a"; sourceTree = "<group>"; };
+		01827D61298FE66B006A177F /* lib00000000000000000000000046534D31.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib00000000000000000000000046534D31.a; path = "../../../../../../../Eco.Framework/Eco.FileSystemManagement1/BuildFiles/Mac/arm64 x86_64/StaticRelease/lib00000000000000000000000046534D31.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01827D35298FDD8B006A177F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01827D62298FE66B006A177F /* lib00000000000000000000000046534D31.a in Frameworks */,
+				01827D60298FE658006A177F /* lib0000000000000000000000004D656D31.a in Frameworks */,
+				01827D5E298FE645006A177F /* lib00000000000000000000000042757331.a in Frameworks */,
+				01827D5B298FE617006A177F /* lib00000000000000000000000000000100.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01827D2F298FDD8B006A177F = {
+			isa = PBXGroup;
+			children = (
+				01827D47298FE3E1006A177F /* Header Files */,
+				01827D46298FE3D7006A177F /* Shared Files */,
+				01827D45298FE3C7006A177F /* Source Files */,
+				01827D39298FDD8B006A177F /* Products */,
+				01827D59298FE617006A177F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01827D39298FDD8B006A177F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01827D38298FDD8B006A177F /* Eco.SimpleSampleCpp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01827D45298FE3C7006A177F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				01827D51298FE403006A177F /* EcoSimpleSampleCpp.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		01827D46298FE3D7006A177F /* Shared Files */ = {
+			isa = PBXGroup;
+			children = (
+				01827D4C298FE3F7006A177F /* IdEcoCalculatorA.hpp */,
+				01827D4F298FE3F7006A177F /* IdEcoInterfaceBus1.hpp */,
+				01827D50298FE3F7006A177F /* IdEcoMemoryManager1.hpp */,
+				01827D4B298FE3F7006A177F /* IEcoBase1.hpp */,
+				01827D4D298FE3F7006A177F /* IEcoCalculatorX.hpp */,
+				01827D4E298FE3F7006A177F /* IEcoInterfaceBus1.hpp */,
+				01827D4A298FE3F7006A177F /* IEcoMemoryAllocator1.hpp */,
+				01827D48298FE3F7006A177F /* IEcoMemoryManager1.hpp */,
+				01827D49298FE3F7006A177F /* IEcoSystem1.hpp */,
+			);
+			name = "Shared Files";
+			sourceTree = "<group>";
+		};
+		01827D47298FE3E1006A177F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		01827D59298FE617006A177F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01827D61298FE66B006A177F /* lib00000000000000000000000046534D31.a */,
+				01827D5F298FE658006A177F /* lib0000000000000000000000004D656D31.a */,
+				01827D5D298FE645006A177F /* lib00000000000000000000000042757331.a */,
+				01827D5A298FE617006A177F /* lib00000000000000000000000000000100.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01827D37298FDD8B006A177F /* Eco.SimpleSampleCpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01827D3F298FDD8B006A177F /* Build configuration list for PBXNativeTarget "Eco.SimpleSampleCpp" */;
+			buildPhases = (
+				01827D34298FDD8B006A177F /* Sources */,
+				01827D35298FDD8B006A177F /* Frameworks */,
+				01827D36298FDD8B006A177F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eco.SimpleSampleCpp;
+			productName = Eco.SimpleSampleCpp;
+			productReference = 01827D38298FDD8B006A177F /* Eco.SimpleSampleCpp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01827D30298FDD8B006A177F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					01827D37298FDD8B006A177F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 01827D33298FDD8B006A177F /* Build configuration list for PBXProject "Eco.SimpleSampleCpp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01827D2F298FDD8B006A177F;
+			productRefGroup = 01827D39298FDD8B006A177F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01827D37298FDD8B006A177F /* Eco.SimpleSampleCpp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01827D34298FDD8B006A177F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01827D52298FE403006A177F /* EcoSimpleSampleCpp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01827D3D298FDD8B006A177F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					ECO_DLL,
+					ECO_APPLE,
+					UGUID_UTILITY,
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(ECO_FRAMEWORK)/Eco.Core1/SharedFiles";
+				LIBRARY_SEARCH_PATHS = (
+					"'$(ECO_FRAMEWORK)/Eco.System1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'${ECO_FRAMEWORK}/Eco.FileSystemManagement1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'$(ECO_FRAMEWORK)/Eco.InterfaceBus1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'$(ECO_FRAMEWORK)/Eco.MemoryManager1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease/'",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		01827D3E298FDD8B006A177F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(ECO_FRAMEWORK)/Eco.Core1/SharedFiles";
+				LIBRARY_SEARCH_PATHS = (
+					"'$(ECO_FRAMEWORK)/Eco.System1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'${ECO_FRAMEWORK}/Eco.FileSystemManagement1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'$(ECO_FRAMEWORK)/Eco.InterfaceBus1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'$(ECO_FRAMEWORK)/Eco.MemoryManager1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease/'",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		01827D40298FDD8B006A177F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01827D41298FDD8B006A177F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01827D33298FDD8B006A177F /* Build configuration list for PBXProject "Eco.SimpleSampleCpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01827D3D298FDD8B006A177F /* Debug */,
+				01827D3E298FDD8B006A177F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01827D3F298FDD8B006A177F /* Build configuration list for PBXNativeTarget "Eco.SimpleSampleCpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01827D40298FDD8B006A177F /* Debug */,
+				01827D41298FDD8B006A177F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01827D30298FDD8B006A177F /* Project object */;
+}

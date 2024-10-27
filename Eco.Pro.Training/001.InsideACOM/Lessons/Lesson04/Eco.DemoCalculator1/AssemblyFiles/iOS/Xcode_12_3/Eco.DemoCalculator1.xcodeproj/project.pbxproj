@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0130B75F28E6181300C20A90 /* lib00000000000000000000000046534D31.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0130B75E28E6181300C20A90 /* lib00000000000000000000000046534D31.a */; };
+		0130B76128E6182A00C20A90 /* lib0000000000000000000000004D656D31.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0130B76028E6182A00C20A90 /* lib0000000000000000000000004D656D31.a */; };
+		0130B76328E6184200C20A90 /* lib00000000000000000000000042757331.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0130B76228E6184200C20A90 /* lib00000000000000000000000042757331.a */; };
+		0130B76528E6185400C20A90 /* lib00000000000000000000000000000100.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0130B76428E6185400C20A90 /* lib00000000000000000000000000000100.a */; };
+		0130B76728E6188400C20A90 /* lib4828F6552E4540E78121EBD220DC360E.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0130B76628E6188400C20A90 /* lib4828F6552E4540E78121EBD220DC360E.a */; };
+		0130B76A28E618B800C20A90 /* libAE202E543CE54550899603BD70C62565.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0130B76928E618B800C20A90 /* libAE202E543CE54550899603BD70C62565.a */; };
+		0140A7A226A07411007CACD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0140A79F26A07411007CACD9 /* Assets.xcassets */; };
+		0140A7AA26A0755E007CACD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0140A7A826A0755E007CACD9 /* Main.storyboard */; };
+		0140A7AE26A0772D007CACD9 /* peerFont_Windows_Codepage_1251.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 0140A7AC26A0772D007CACD9 /* peerFont_Windows_Codepage_1251.bmp */; };
+		01E4ACE626A04E96009D3E45 /* EcoDemoCalculator1.c in Sources */ = {isa = PBXBuildFile; fileRef = 01E4ACE526A04E96009D3E45 /* EcoDemoCalculator1.c */; };
+		01E4ACFB26A05C7D009D3E45 /* EcoDemoDialogIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4ACFA26A05C7D009D3E45 /* EcoDemoDialogIOS.m */; };
+		01E4AD0226A0607D009D3E45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4AD0026A0607D009D3E45 /* AppDelegate.m */; };
+		01E4AD0326A0607D009D3E45 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E4AD0126A0607D009D3E45 /* GameViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0130B75E28E6181300C20A90 /* lib00000000000000000000000046534D31.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib00000000000000000000000046534D31.a; path = "../../../../../../../../Eco.Distribution/Eco.Framework/Eco.FileSystemManagement1/BuildFiles/iOS/arm64 x86_64 i386/StaticRelease/lib00000000000000000000000046534D31.a"; sourceTree = "<group>"; };
+		0130B76028E6182A00C20A90 /* lib0000000000000000000000004D656D31.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib0000000000000000000000004D656D31.a; path = "../../../../../../../../Eco.Distribution/Eco.Framework/Eco.MemoryManager1/BuildFiles/iOS/arm64 x86_64 i386/StaticRelease/lib0000000000000000000000004D656D31.a"; sourceTree = "<group>"; };
+		0130B76228E6184200C20A90 /* lib00000000000000000000000042757331.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib00000000000000000000000042757331.a; path = "../../../../../../../../Eco.Distribution/Eco.Framework/Eco.InterfaceBus1/BuildFiles/iOS/arm64 x86_64 i386/StaticRelease/lib00000000000000000000000042757331.a"; sourceTree = "<group>"; };
+		0130B76428E6185400C20A90 /* lib00000000000000000000000000000100.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib00000000000000000000000000000100.a; path = "../../../../../../../../Eco.Distribution/Eco.Framework/Eco.System1/BuildFiles/iOS/arm64 x86_64 i386/StaticRelease/lib00000000000000000000000000000100.a"; sourceTree = "<group>"; };
+		0130B76628E6188400C20A90 /* lib4828F6552E4540E78121EBD220DC360E.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib4828F6552E4540E78121EBD220DC360E.a; path = "../../../../../Lesson02/Eco.CalculatorA/BuildFiles/iOS/arm64 x86_64 i386/StaticRelease/lib4828F6552E4540E78121EBD220DC360E.a"; sourceTree = "<group>"; };
+		0130B76928E618B800C20A90 /* libAE202E543CE54550899603BD70C62565.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAE202E543CE54550899603BD70C62565.a; path = "../../../../../Lesson03/Eco.CalculatorB/BuildFiles/iOS/arm64 x86_64 i386/StaticRelease/libAE202E543CE54550899603BD70C62565.a"; sourceTree = "<group>"; };
+		0140A79F26A07411007CACD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Eco.DemoCalculator1/Assets.xcassets; sourceTree = "<group>"; };
+		0140A7A926A0755E007CACD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Eco.DemoCalculator1/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0140A7AD26A0772D007CACD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = Base; path = Eco.DemoCalculator1/Base.lproj/peerFont_Windows_Codepage_1251.bmp; sourceTree = "<group>"; };
+		01E4AB3326A0115F009D3E45 /* DemoCalculator1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCalculator1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E4ACE526A04E96009D3E45 /* EcoDemoCalculator1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = EcoDemoCalculator1.c; path = ../../../SourceFiles/EcoDemoCalculator1.c; sourceTree = "<group>"; };
+		01E4ACFA26A05C7D009D3E45 /* EcoDemoDialogIOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EcoDemoDialogIOS.m; path = ../../../SourceFiles/EcoDemoDialogIOS.m; sourceTree = "<group>"; };
+		01E4ACFD26A05F68009D3E45 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../../../HeaderFiles/GameViewController.h; sourceTree = "<group>"; };
+		01E4ACFE26A05F68009D3E45 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../HeaderFiles/AppDelegate.h; sourceTree = "<group>"; };
+		01E4ACFF26A05F68009D3E45 /* EcoDemoDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EcoDemoDialog.h; path = ../../../HeaderFiles/EcoDemoDialog.h; sourceTree = "<group>"; };
+		01E4AD0026A0607D009D3E45 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../../SourceFiles/AppDelegate.m; sourceTree = "<group>"; };
+		01E4AD0126A0607D009D3E45 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../../../SourceFiles/GameViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01E4AB3026A0115F009D3E45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0130B76A28E618B800C20A90 /* libAE202E543CE54550899603BD70C62565.a in Frameworks */,
+				0130B76528E6185400C20A90 /* lib00000000000000000000000000000100.a in Frameworks */,
+				0130B76728E6188400C20A90 /* lib4828F6552E4540E78121EBD220DC360E.a in Frameworks */,
+				0130B76128E6182A00C20A90 /* lib0000000000000000000000004D656D31.a in Frameworks */,
+				0130B75F28E6181300C20A90 /* lib00000000000000000000000046534D31.a in Frameworks */,
+				0130B76328E6184200C20A90 /* lib00000000000000000000000042757331.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E4AB2A26A0115F009D3E45 = {
+			isa = PBXGroup;
+			children = (
+				01E4ACE326A04E66009D3E45 /* Header Files */,
+				01E4ACE226A04E5B009D3E45 /* Shared Files */,
+				01E4ACE126A04E47009D3E45 /* Source Files */,
+				01E4AB3426A0115F009D3E45 /* Products */,
+				01E4ACEE26A050EF009D3E45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01E4AB3426A0115F009D3E45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01E4AB3326A0115F009D3E45 /* DemoCalculator1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01E4ACE126A04E47009D3E45 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0140A7AC26A0772D007CACD9 /* peerFont_Windows_Codepage_1251.bmp */,
+				0140A7A826A0755E007CACD9 /* Main.storyboard */,
+				0140A79F26A07411007CACD9 /* Assets.xcassets */,
+				01E4AD0026A0607D009D3E45 /* AppDelegate.m */,
+				01E4AD0126A0607D009D3E45 /* GameViewController.m */,
+				01E4ACFA26A05C7D009D3E45 /* EcoDemoDialogIOS.m */,
+				01E4ACE526A04E96009D3E45 /* EcoDemoCalculator1.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		01E4ACE226A04E5B009D3E45 /* Shared Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Shared Files";
+			sourceTree = "<group>";
+		};
+		01E4ACE326A04E66009D3E45 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				01E4ACFE26A05F68009D3E45 /* AppDelegate.h */,
+				01E4ACFF26A05F68009D3E45 /* EcoDemoDialog.h */,
+				01E4ACFD26A05F68009D3E45 /* GameViewController.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		01E4ACEE26A050EF009D3E45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0130B75E28E6181300C20A90 /* lib00000000000000000000000046534D31.a */,
+				0130B76028E6182A00C20A90 /* lib0000000000000000000000004D656D31.a */,
+				0130B76228E6184200C20A90 /* lib00000000000000000000000042757331.a */,
+				0130B76428E6185400C20A90 /* lib00000000000000000000000000000100.a */,
+				0130B76628E6188400C20A90 /* lib4828F6552E4540E78121EBD220DC360E.a */,
+				0130B76928E618B800C20A90 /* libAE202E543CE54550899603BD70C62565.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01E4AB3226A0115F009D3E45 /* Eco.DemoCalculator1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E4AB4C26A01160009D3E45 /* Build configuration list for PBXNativeTarget "Eco.DemoCalculator1" */;
+			buildPhases = (
+				01E4AB2F26A0115F009D3E45 /* Sources */,
+				01E4AB3026A0115F009D3E45 /* Frameworks */,
+				01E4AB3126A0115F009D3E45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eco.DemoCalculator1;
+			productName = Eco.DemoCalculator1;
+			productReference = 01E4AB3326A0115F009D3E45 /* DemoCalculator1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01E4AB2B26A0115F009D3E45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					01E4AB3226A0115F009D3E45 = {
+						CreatedOnToolsVersion = 12.3;
+						DevelopmentTeam = F74HJ9QBT4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 01E4AB2E26A0115F009D3E45 /* Build configuration list for PBXProject "Eco.DemoCalculator1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01E4AB2A26A0115F009D3E45;
+			productRefGroup = 01E4AB3426A0115F009D3E45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01E4AB3226A0115F009D3E45 /* Eco.DemoCalculator1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01E4AB3126A0115F009D3E45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0140A7A226A07411007CACD9 /* Assets.xcassets in Resources */,
+				0140A7AE26A0772D007CACD9 /* peerFont_Windows_Codepage_1251.bmp in Resources */,
+				0140A7AA26A0755E007CACD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01E4AB2F26A0115F009D3E45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E4AD0326A0607D009D3E45 /* GameViewController.m in Sources */,
+				01E4ACFB26A05C7D009D3E45 /* EcoDemoDialogIOS.m in Sources */,
+				01E4ACE626A04E96009D3E45 /* EcoDemoCalculator1.c in Sources */,
+				01E4AD0226A0607D009D3E45 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0140A7A826A0755E007CACD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0140A7A926A0755E007CACD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0140A7AC26A0772D007CACD9 /* peerFont_Windows_Codepage_1251.bmp */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0140A7AD26A0772D007CACD9 /* Base */,
+			);
+			name = peerFont_Windows_Codepage_1251.bmp;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01E4AB4A26A01160009D3E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01E4AB4B26A01160009D3E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01E4AB4D26A01160009D3E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F74HJ9QBT4;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					ECO_LIB,
+					ECO_APPLE,
+					UGUID_UTILITY,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../SharedFiles,
+					"${ECO_FRAMEWORK}/Eco.FileSystemManagement1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.MemoryManager1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Core1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.InterfaceBus1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.System1/SharedFiles",
+					../../../../../Lesson02/Eco.CalculatorA/SharedFiles,
+					../../../../../Lesson03/Eco.CalculatorB/SharedFiles,
+				);
+				INFOPLIST_FILE = Eco.DemoCalculator1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"'${ECO_FRAMEWORK}/Eco.FileSystemManagement1/BuildFiles/iOS/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'$(ECO_FRAMEWORK)/Eco.MemoryManager1/BuildFiles/iOS/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'$(ECO_FRAMEWORK)/Eco.InterfaceBus1/BuildFiles/iOS/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'$(ECO_FRAMEWORK)/Eco.System1/BuildFiles/iOS/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'${ECO_FRAMEWORK}/Eco.BIOSExtensions1/BuildFiles/iOS/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'../../../../../Lesson02/Eco.CalculatorA/BuildFiles/iOS/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'../../../../../Lesson03/Eco.CalculatorB/BuildFiles/iOS/$(ARCHS_STANDARD)/StaticRelease/'",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PeerF.Eco-DemoCalculator1";
+				PRODUCT_NAME = DemoCalculator1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01E4AB4E26A01160009D3E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F74HJ9QBT4;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ECO_LIB,
+					ECO_APPLE,
+					UGUID_UTILITY,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../SharedFiles,
+					"${ECO_FRAMEWORK}/Eco.FileSystemManagement1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.MemoryManager1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Core1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.InterfaceBus1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.System1/SharedFiles",
+					../../../../../Lesson02/Eco.CalculatorA/SharedFiles,
+					../../../../../Lesson03/Eco.CalculatorB/SharedFiles,
+				);
+				INFOPLIST_FILE = Eco.DemoCalculator1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"'${ECO_FRAMEWORK}/Eco.FileSystemManagement1/BuildFiles/iOS/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'$(ECO_FRAMEWORK)/Eco.MemoryManager1/BuildFiles/iOS/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'$(ECO_FRAMEWORK)/Eco.InterfaceBus1/BuildFiles/iOS/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'$(ECO_FRAMEWORK)/Eco.System1/BuildFiles/iOS/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'${ECO_FRAMEWORK}/Eco.BIOSExtensions1/BuildFiles/iOS/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'../../../../../Lesson02/Eco.CalculatorA/BuildFiles/iOS/$(ARCHS_STANDARD)/StaticRelease/'",
+					"'../../../../../Lesson03/Eco.CalculatorB/BuildFiles/iOS/$(ARCHS_STANDARD)/StaticRelease/'",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PeerF.Eco-DemoCalculator1";
+				PRODUCT_NAME = DemoCalculator1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E4AB2E26A0115F009D3E45 /* Build configuration list for PBXProject "Eco.DemoCalculator1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E4AB4A26A01160009D3E45 /* Debug */,
+				01E4AB4B26A01160009D3E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E4AB4C26A01160009D3E45 /* Build configuration list for PBXNativeTarget "Eco.DemoCalculator1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E4AB4D26A01160009D3E45 /* Debug */,
+				01E4AB4E26A01160009D3E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01E4AB2B26A0115F009D3E45 /* Project object */;
+}
