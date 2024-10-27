@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eco.SimpleSampleCpp", "Eco.SimpleSampleCpp.vcxproj", "{5EF3B998-BF60-48B9-87D6-638FB5A02906}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DynamicDebug|Win32 = DynamicDebug|Win32
+		DynamicRelease|Win32 = DynamicRelease|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EF3B998-BF60-48B9-87D6-638FB5A02906}.DynamicDebug|Win32.ActiveCfg = DynamicDebug|Win32
+		{5EF3B998-BF60-48B9-87D6-638FB5A02906}.DynamicDebug|Win32.Build.0 = DynamicDebug|Win32
+		{5EF3B998-BF60-48B9-87D6-638FB5A02906}.DynamicRelease|Win32.ActiveCfg = DynamicRelease|Win32
+		{5EF3B998-BF60-48B9-87D6-638FB5A02906}.DynamicRelease|Win32.Build.0 = DynamicRelease|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

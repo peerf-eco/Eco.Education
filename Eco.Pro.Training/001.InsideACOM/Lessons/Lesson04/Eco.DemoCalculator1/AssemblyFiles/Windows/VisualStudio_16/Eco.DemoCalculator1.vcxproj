@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DynamicDebug|Win32">
+      <Configuration>DynamicDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DynamicRelease|Win32">
+      <Configuration>DynamicRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8196784F-FCBC-49AA-AA4B-228C3D77C40F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EcoCalculator1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DynamicDebug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DynamicRelease|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='DynamicDebug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='DynamicRelease|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DynamicDebug|Win32'">
+    <OutDir>$(SolutionDir)$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>DemoCalculator1</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DynamicRelease|Win32'">
+    <OutDir>$(SolutionDir)$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>DemoCalculator1</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DynamicDebug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\HeaderFiles;..\..\..\..\..\Lesson02\Eco.CalculatorA\SharedFiles;..\..\..\..\..\Lesson03\Eco.CalculatorB\SharedFiles;$(ECO_FRAMEWORK)\Eco.Core1\SharedFiles;$(ECO_FRAMEWORK)\Eco.InterfaceBus1\SharedFiles;$(ECO_FRAMEWORK)\Eco.System1\SharedFiles;$(ECO_FRAMEWORK)\Eco.MemoryManager1\SharedFiles;$(ECO_FRAMEWORK)\Eco.FileSystemManagement1\SharedFiles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <CompileAs>CompileAsC</CompileAs>
+      <PreprocessorDefinitions>ECO_WINDOWS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ECO_FRAMEWORK)\Eco.System1\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\StaticRelease\;$(ECO_FRAMEWORK)\Eco.InterfaceBus1\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\StaticRelease\;$(ECO_FRAMEWORK)\Eco.MemoryManager1\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\StaticRelease\;$(ECO_FRAMEWORK)\Eco.FileSystemManagement1\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\StaticRelease\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>00000000000000000000000000000100.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\..\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y "..\..\..\..\..\Lesson02\Eco.CalculatorA\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\DynamicDebug\4828F6552E4540E78121EBD220DC360E.dll" "$(ProjectDir)..\..\..\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\DynamicDebug\"
+xcopy /Y "..\..\..\..\..\Lesson03\Eco.CalculatorB\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\DynamicDebug\AE202E543CE54550899603BD70C62565.dll" "$(ProjectDir)..\..\..\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\DynamicDebug\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DynamicRelease|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <CompileAs>CompileAsC</CompileAs>
+      <AdditionalIncludeDirectories>..\..\..\HeaderFiles;..\..\..\..\..\Lesson02\Eco.CalculatorA\SharedFiles;..\..\..\..\..\Lesson03\Eco.CalculatorB\SharedFiles;$(ECO_FRAMEWORK)\Eco.Core1\SharedFiles;$(ECO_FRAMEWORK)\Eco.InterfaceBus1\SharedFiles;$(ECO_FRAMEWORK)\Eco.System1\SharedFiles;$(ECO_FRAMEWORK)\Eco.MemoryManager1\SharedFiles;$(ECO_FRAMEWORK)\Eco.FileSystemManagement1\SharedFiles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ECO_WINDOWS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ECO_FRAMEWORK)\Eco.System1\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\StaticRelease\;$(ECO_FRAMEWORK)\Eco.InterfaceBus1\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\StaticRelease\;$(ECO_FRAMEWORK)\Eco.MemoryManager1\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\StaticRelease\;$(ECO_FRAMEWORK)\Eco.FileSystemManagement1\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\StaticRelease\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>00000000000000000000000000000100.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\..\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y "..\..\..\..\..\Lesson02\Eco.CalculatorA\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\DynamicRelease\4828F6552E4540E78121EBD220DC360E.dll" "$(ProjectDir)..\..\..\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\DynamicRelease\"
+xcopy /Y "..\..\..\..\..\Lesson03\Eco.CalculatorB\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\DynamicRelease\AE202E543CE54550899603BD70C62565.dll" "$(ProjectDir)..\..\..\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\DynamicRelease"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\SourceFiles\EcoDemoCalculator1.c" />
+    <ClCompile Include="..\..\..\SourceFiles\EcoDemoDialogWin.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Lesson02\Eco.CalculatorA\SharedFiles\IEcoCalculatorX.h" />
+    <ClInclude Include="..\..\..\HeaderFiles\EcoDemoDialogWin.h" />
+    <ClInclude Include="..\..\..\HeaderFiles\resource.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

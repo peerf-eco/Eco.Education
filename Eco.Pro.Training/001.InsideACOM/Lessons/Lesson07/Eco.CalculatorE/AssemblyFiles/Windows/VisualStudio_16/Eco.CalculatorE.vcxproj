@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DynamicDebug|Win32">
+      <Configuration>DynamicDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="StaticDebug|Win32">
+      <Configuration>StaticDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DynamicRelease|Win32">
+      <Configuration>DynamicRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="StaticRelease|Win32">
+      <Configuration>StaticRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{28BCBF50-BDA8-46F4-88CA-6F6D903A58A1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EcoCalculatorE</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DynamicDebug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DynamicRelease|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DynamicDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DynamicRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">
+    <OutDir>$(SolutionDir)$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>872FEF1DE3314B87AD44D1E7C232C2F0</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DynamicDebug|Win32'">
+    <OutDir>$(SolutionDir)$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>872FEF1DE3314B87AD44D1E7C232C2F0</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">
+    <OutDir>$(SolutionDir)$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>872FEF1DE3314B87AD44D1E7C232C2F0</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DynamicRelease|Win32'">
+    <OutDir>$(SolutionDir)$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>872FEF1DE3314B87AD44D1E7C232C2F0</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\HeaderFiles;..\..\..\SharedFiles;..\..\..\..\..\Lesson02\Eco.CalculatorA\SharedFiles;..\..\..\..\..\Lesson03\Eco.CalculatorB\SharedFiles;$(ECO_FRAMEWORK)\Eco.Core1\SharedFiles;$(ECO_FRAMEWORK)\Eco.MemoryManager1\SharedFiles;$(ECO_FRAMEWORK)\Eco.InterfaceBus1\SharedFiles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <CompileAs>CompileAsC</CompileAs>
+      <PreprocessorDefinitions>ECO_WINDOWS;ECO_WIN32;_DEBUG;_WINDOWS;ECO_LIB;UGUID_UTILITY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>..\..\..\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DynamicDebug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\HeaderFiles;..\..\..\SharedFiles;..\..\..\..\..\Lesson02\Eco.CalculatorA\SharedFiles;..\..\..\..\..\Lesson03\Eco.CalculatorB\SharedFiles;$(ECO_FRAMEWORK)\Eco.Core1\SharedFiles;$(ECO_FRAMEWORK)\Eco.MemoryManager1\SharedFiles;$(ECO_FRAMEWORK)\Eco.InterfaceBus1\SharedFiles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <CompileAs>CompileAsC</CompileAs>
+      <PreprocessorDefinitions>ECO_WINDOWS;ECO_WIN32;_DEBUG;_WINDOWS;ECO_DLL;UGUID_UTILITY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>..\..\..\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <Version>2.0</Version>
+    </Link>
+    <Lib>
+      <OutputFile>..\..\..\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <CompileAs>CompileAsC</CompileAs>
+      <AdditionalIncludeDirectories>..\..\..\HeaderFiles;..\..\..\SharedFiles;..\..\..\..\..\Lesson02\Eco.CalculatorA\SharedFiles;..\..\..\..\..\Lesson03\Eco.CalculatorB\SharedFiles;$(ECO_FRAMEWORK)\Eco.Core1\SharedFiles;$(ECO_FRAMEWORK)\Eco.MemoryManager1\SharedFiles;$(ECO_FRAMEWORK)\Eco.InterfaceBus1\SharedFiles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ECO_WINDOWS;ECO_WIN32;NDEBUG;_WINDOWS;ECO_LIB;UGUID_UTILITY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <OutputFile>..\..\..\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DynamicRelease|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <CompileAs>CompileAsC</CompileAs>
+      <AdditionalIncludeDirectories>..\..\..\HeaderFiles;..\..\..\SharedFiles;..\..\..\..\..\Lesson02\Eco.CalculatorA\SharedFiles;..\..\..\..\..\Lesson03\Eco.CalculatorB\SharedFiles;$(ECO_FRAMEWORK)\Eco.Core1\SharedFiles;$(ECO_FRAMEWORK)\Eco.MemoryManager1\SharedFiles;$(ECO_FRAMEWORK)\Eco.InterfaceBus1\SharedFiles;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ECO_WINDOWS;ECO_WIN32;NDEBUG;_WINDOWS;ECO_DLL;UGUID_UTILITY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>..\..\..\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <Version>2.0</Version>
+    </Link>
+    <Lib>
+      <OutputFile>..\..\..\BuildFiles\$(TargetPlatformIdentifier)\$(ProcessorArchitecture)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\HeaderFiles\CEcoCalculatorE.h" />
+    <ClInclude Include="..\..\..\HeaderFiles\CEcoCalculatorEFactory.h" />
+    <ClInclude Include="..\..\..\SharedFiles\IdEcoCalculatorE.h" />
+    <ClInclude Include="..\..\..\SharedFiles\IEcoCalculatorY.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\SourceFiles\CEcoCalculatorE.c" />
+    <ClCompile Include="..\..\..\SourceFiles\CEcoCalculatorEFactory.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
