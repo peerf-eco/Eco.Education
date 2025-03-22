@@ -1,0 +1,48 @@
+# source files.
+SRC = \
+../../../SourceFiles/CEcoCalculatorD.c \
+../../../SourceFiles/CEcoCalculatorDFactory.c
+
+
+# include directories
+INCLUDES = \
+-I ../../../HeaderFiles \
+-I ../../../SharedFiles \
+-I ../../../../../Lesson02/Eco.CalculatorA/SharedFiles \
+-I ../../../../../Lesson03/Eco.CalculatorB/SharedFiles \
+-I $(ECO_FRAMEWORK)/Eco.Core1/SharedFiles \
+-I $(ECO_FRAMEWORK)/Eco.InterfaceBus1/SharedFiles \
+-I $(ECO_FRAMEWORK)/Eco.MemoryManager1/SharedFiles
+
+OBJ = $(SRC:.c=.o)
+
+OUT = lib3A8E44677E82475CB4A3719ED8397E61.a
+OUT_DIR = ../../../BuildFiles/Linux/x86_64/StaticRelease
+
+# C compiler flags
+CCFLAGS = -Wall -O3 -g -DECO_LIB -DECO_LINUX -DECO_X86_64 -DUGUID_UTILITY
+
+# compiler
+GNU =
+CC = gcc
+AR = gcc-ar
+
+# library paths
+LIBS =-lc -lm -lgcc
+
+# link flags
+LDFLAGS = -g
+
+.SUFFIXES: .c
+
+.c.o:
+	$(CC) $(INCLUDES) $(CCFLAGS) -c $< -o $@
+
+$(OUT): $(OBJ)
+	mkdir -p $(OUT_DIR)
+	$(AR) -rcs $(OUT_DIR)/$(OUT) $(OBJ)
+	rm $(OBJ)
+
+clean:
+	rm $(OBJ) $(OUT_DIR)/$(OUT)
+

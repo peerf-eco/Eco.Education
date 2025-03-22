@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eco.CalculatorA", "Eco.CalculatorA.vcxproj", "{DF63A596-10EE-452F-8900-4CBE790FD36F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DynamicDebug|Win32 = DynamicDebug|Win32
+		DynamicDebug|x64 = DynamicDebug|x64
+		DynamicRelease|Win32 = DynamicRelease|Win32
+		DynamicRelease|x64 = DynamicRelease|x64
+		StaticDebug|Win32 = StaticDebug|Win32
+		StaticDebug|x64 = StaticDebug|x64
+		StaticRelease|Win32 = StaticRelease|Win32
+		StaticRelease|x64 = StaticRelease|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.DynamicDebug|Win32.ActiveCfg = DynamicDebug|Win32
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.DynamicDebug|Win32.Build.0 = DynamicDebug|Win32
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.DynamicDebug|x64.ActiveCfg = DynamicDebug|x64
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.DynamicDebug|x64.Build.0 = DynamicDebug|x64
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.DynamicRelease|Win32.ActiveCfg = DynamicRelease|Win32
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.DynamicRelease|Win32.Build.0 = DynamicRelease|Win32
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.DynamicRelease|x64.ActiveCfg = DynamicRelease|x64
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.DynamicRelease|x64.Build.0 = DynamicRelease|x64
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.StaticDebug|Win32.ActiveCfg = StaticDebug|Win32
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.StaticDebug|Win32.Build.0 = StaticDebug|Win32
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.StaticDebug|x64.ActiveCfg = StaticDebug|x64
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.StaticDebug|x64.Build.0 = StaticDebug|x64
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.StaticRelease|Win32.ActiveCfg = StaticRelease|Win32
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.StaticRelease|Win32.Build.0 = StaticRelease|Win32
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.StaticRelease|x64.ActiveCfg = StaticRelease|x64
+		{DF63A596-10EE-452F-8900-4CBE790FD36F}.StaticRelease|x64.Build.0 = StaticRelease|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
