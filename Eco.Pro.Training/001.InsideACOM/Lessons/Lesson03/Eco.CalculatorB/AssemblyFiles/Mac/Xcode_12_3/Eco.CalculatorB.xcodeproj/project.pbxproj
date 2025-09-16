@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0163C0F825D9933E007E706B /* CEcoCalculatorBFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0163C0F625D9933E007E706B /* CEcoCalculatorBFactory.h */; };
+		0163C0F925D9933E007E706B /* CEcoCalculatorB.h in Headers */ = {isa = PBXBuildFile; fileRef = 0163C0F725D9933E007E706B /* CEcoCalculatorB.h */; };
+		0163C0FD25D9934D007E706B /* IEcoCalculatorX.h in Headers */ = {isa = PBXBuildFile; fileRef = 0163C0FB25D9934D007E706B /* IEcoCalculatorX.h */; };
+		0163C0FE25D9934D007E706B /* IdEcoCalculatorB.h in Headers */ = {isa = PBXBuildFile; fileRef = 0163C0FC25D9934D007E706B /* IdEcoCalculatorB.h */; };
+		0163C10225D9935D007E706B /* CEcoCalculatorB.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163C10025D9935D007E706B /* CEcoCalculatorB.c */; };
+		0163C10325D9935D007E706B /* CEcoCalculatorBFactory.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163C10125D9935D007E706B /* CEcoCalculatorBFactory.c */; };
+		0163C11325D9955A007E706B /* CEcoCalculatorB.h in Headers */ = {isa = PBXBuildFile; fileRef = 0163C0F725D9933E007E706B /* CEcoCalculatorB.h */; };
+		0163C11425D9955A007E706B /* CEcoCalculatorBFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0163C0F625D9933E007E706B /* CEcoCalculatorBFactory.h */; };
+		0163C11525D9955A007E706B /* IdEcoCalculatorB.h in Headers */ = {isa = PBXBuildFile; fileRef = 0163C0FC25D9934D007E706B /* IdEcoCalculatorB.h */; };
+		0163C11625D9955A007E706B /* IEcoCalculatorX.h in Headers */ = {isa = PBXBuildFile; fileRef = 0163C0FB25D9934D007E706B /* IEcoCalculatorX.h */; };
+		0163C11925D99560007E706B /* CEcoCalculatorB.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163C10025D9935D007E706B /* CEcoCalculatorB.c */; };
+		0163C11A25D99560007E706B /* CEcoCalculatorBFactory.c in Sources */ = {isa = PBXBuildFile; fileRef = 0163C10125D9935D007E706B /* CEcoCalculatorBFactory.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0121C01D25D8279000684931 /* libAE202E543CE54550899603BD70C62565.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAE202E543CE54550899603BD70C62565.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0163C0F625D9933E007E706B /* CEcoCalculatorBFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEcoCalculatorBFactory.h; path = ../../../HeaderFiles/CEcoCalculatorBFactory.h; sourceTree = "<group>"; };
+		0163C0F725D9933E007E706B /* CEcoCalculatorB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEcoCalculatorB.h; path = ../../../HeaderFiles/CEcoCalculatorB.h; sourceTree = "<group>"; };
+		0163C0FB25D9934D007E706B /* IEcoCalculatorX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IEcoCalculatorX.h; path = ../../../SharedFiles/IEcoCalculatorX.h; sourceTree = "<group>"; };
+		0163C0FC25D9934D007E706B /* IdEcoCalculatorB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IdEcoCalculatorB.h; path = ../../../SharedFiles/IdEcoCalculatorB.h; sourceTree = "<group>"; };
+		0163C10025D9935D007E706B /* CEcoCalculatorB.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CEcoCalculatorB.c; path = ../../../SourceFiles/CEcoCalculatorB.c; sourceTree = "<group>"; };
+		0163C10125D9935D007E706B /* CEcoCalculatorBFactory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CEcoCalculatorBFactory.c; path = ../../../SourceFiles/CEcoCalculatorBFactory.c; sourceTree = "<group>"; };
+		0163C10925D993D7007E706B /* AE202E543CE54550899603BD70C62565.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = AE202E543CE54550899603BD70C62565.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0121C01B25D8279000684931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0163C10725D993D7007E706B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0121C01425D8279000684931 = {
+			isa = PBXGroup;
+			children = (
+				0163C0F525D99323007E706B /* Header Files */,
+				0163C0F425D99316007E706B /* Shared Files */,
+				0163C0F325D992D9007E706B /* Source Files */,
+				0121C01E25D8279000684931 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0121C01E25D8279000684931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0121C01D25D8279000684931 /* libAE202E543CE54550899603BD70C62565.a */,
+				0163C10925D993D7007E706B /* AE202E543CE54550899603BD70C62565.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0163C0F325D992D9007E706B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0163C10025D9935D007E706B /* CEcoCalculatorB.c */,
+				0163C10125D9935D007E706B /* CEcoCalculatorBFactory.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0163C0F425D99316007E706B /* Shared Files */ = {
+			isa = PBXGroup;
+			children = (
+				0163C0FC25D9934D007E706B /* IdEcoCalculatorB.h */,
+				0163C0FB25D9934D007E706B /* IEcoCalculatorX.h */,
+			);
+			name = "Shared Files";
+			sourceTree = "<group>";
+		};
+		0163C0F525D99323007E706B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0163C0F725D9933E007E706B /* CEcoCalculatorB.h */,
+				0163C0F625D9933E007E706B /* CEcoCalculatorBFactory.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0121C01925D8279000684931 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0163C0FE25D9934D007E706B /* IdEcoCalculatorB.h in Headers */,
+				0163C0FD25D9934D007E706B /* IEcoCalculatorX.h in Headers */,
+				0163C0F825D9933E007E706B /* CEcoCalculatorBFactory.h in Headers */,
+				0163C0F925D9933E007E706B /* CEcoCalculatorB.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0163C10525D993D7007E706B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0163C11325D9955A007E706B /* CEcoCalculatorB.h in Headers */,
+				0163C11425D9955A007E706B /* CEcoCalculatorBFactory.h in Headers */,
+				0163C11525D9955A007E706B /* IdEcoCalculatorB.h in Headers */,
+				0163C11625D9955A007E706B /* IEcoCalculatorX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0121C01C25D8279000684931 /* Static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0121C02125D8279000684931 /* Build configuration list for PBXNativeTarget "Static" */;
+			buildPhases = (
+				0121C01925D8279000684931 /* Headers */,
+				0121C01A25D8279000684931 /* Sources */,
+				0121C01B25D8279000684931 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Static;
+			productName = Eco.CalculatorB;
+			productReference = 0121C01D25D8279000684931 /* libAE202E543CE54550899603BD70C62565.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0163C10825D993D7007E706B /* Dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0163C10A25D993D7007E706B /* Build configuration list for PBXNativeTarget "Dynamic" */;
+			buildPhases = (
+				0163C10525D993D7007E706B /* Headers */,
+				0163C10625D993D7007E706B /* Sources */,
+				0163C10725D993D7007E706B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dynamic;
+			productName = Dynamic;
+			productReference = 0163C10925D993D7007E706B /* AE202E543CE54550899603BD70C62565.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0121C01525D8279000684931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0121C01C25D8279000684931 = {
+						CreatedOnToolsVersion = 12.4;
+						ProvisioningStyle = Automatic;
+					};
+					0163C10825D993D7007E706B = {
+						CreatedOnToolsVersion = 12.4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0121C01825D8279000684931 /* Build configuration list for PBXProject "Eco.CalculatorB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0121C01425D8279000684931;
+			productRefGroup = 0121C01E25D8279000684931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0121C01C25D8279000684931 /* Static */,
+				0163C10825D993D7007E706B /* Dynamic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0121C01A25D8279000684931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0163C10225D9935D007E706B /* CEcoCalculatorB.c in Sources */,
+				0163C10325D9935D007E706B /* CEcoCalculatorBFactory.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0163C10625D993D7007E706B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0163C11925D99560007E706B /* CEcoCalculatorB.c in Sources */,
+				0163C11A25D99560007E706B /* CEcoCalculatorBFactory.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0121C01F25D8279000684931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0121C02025D8279000684931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0121C02225D8279000684931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ECO_LIB,
+					UGUID_UTILITY,
+					ECO_APPLE,
+					"DEBUG=1",
+					ECO_X86_64,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../SharedFiles,
+					"${ECO_FRAMEWORK}/Eco.FileSystemManagement1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.MemoryManager1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Core1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.InterfaceBus1/SharedFiles",
+				);
+				PRODUCT_NAME = AE202E543CE54550899603BD70C62565;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0121C02325D8279000684931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ECO_LIB,
+					UGUID_UTILITY,
+					ECO_APPLE,
+					ECO_X86_64,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../SharedFiles,
+					"${ECO_FRAMEWORK}/Eco.FileSystemManagement1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.MemoryManager1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Core1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.InterfaceBus1/SharedFiles",
+				);
+				PRODUCT_NAME = AE202E543CE54550899603BD70C62565;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0163C10B25D993D7007E706B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ECO_DLL,
+					UGUID_UTILITY,
+					"DEBUG=1",
+					ECO_APPLE,
+					ECO_X86_64,
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../SharedFiles,
+					"${ECO_FRAMEWORK}/Eco.FileSystemManagement1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.MemoryManager1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Core1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.InterfaceBus1/SharedFiles",
+				);
+				PRODUCT_NAME = AE202E543CE54550899603BD70C62565;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0163C10C25D993D7007E706B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ECO_DLL,
+					UGUID_UTILITY,
+					ECO_APPLE,
+					ECO_X86_64,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../SharedFiles,
+					"${ECO_FRAMEWORK}/Eco.FileSystemManagement1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.MemoryManager1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Core1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.InterfaceBus1/SharedFiles",
+				);
+				PRODUCT_NAME = AE202E543CE54550899603BD70C62565;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0121C01825D8279000684931 /* Build configuration list for PBXProject "Eco.CalculatorB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0121C01F25D8279000684931 /* Debug */,
+				0121C02025D8279000684931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0121C02125D8279000684931 /* Build configuration list for PBXNativeTarget "Static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0121C02225D8279000684931 /* Debug */,
+				0121C02325D8279000684931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0163C10A25D993D7007E706B /* Build configuration list for PBXNativeTarget "Dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0163C10B25D993D7007E706B /* Debug */,
+				0163C10C25D993D7007E706B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0121C01525D8279000684931 /* Project object */;
+}

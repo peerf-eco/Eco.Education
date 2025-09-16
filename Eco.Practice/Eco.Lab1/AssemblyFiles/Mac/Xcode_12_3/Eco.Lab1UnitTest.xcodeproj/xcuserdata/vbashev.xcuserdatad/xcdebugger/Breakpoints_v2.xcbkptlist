@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E905E25A-72A3-467F-AD19-F7C37FC59406"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F223032-67CC-4FCE-AAF1-294632553C44"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../UnitTestFiles/SourceFiles/EcoLab1.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "EcoMain(pIUnk)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "5F223032-67CC-4FCE-AAF1-294632553C44 - d35f8e4af6ed5396"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcoMain"
+                  moduleName = "Eco.Lab1UnitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vbashev/Dev/Eco.Lab1/UnitTestFiles/SourceFiles/EcoLab1.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "330">
+               </Location>
+               <Location
+                  uuid = "5F223032-67CC-4FCE-AAF1-294632553C44 - d35f8e4af6ed56a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcoMain"
+                  moduleName = "Eco.Lab1UnitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vbashev/Dev/Eco.Lab1/UnitTestFiles/SourceFiles/EcoLab1.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "514">
+               </Location>
+               <Location
+                  uuid = "5F223032-67CC-4FCE-AAF1-294632553C44 - d35f8e4af6ed57a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcoMain"
+                  moduleName = "Eco.Lab1UnitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vbashev/Dev/Eco.Lab1/UnitTestFiles/SourceFiles/EcoLab1.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "570">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83F4FC8D-58CF-4D4F-A958-652ED5E00C50"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../UnitTestFiles/SourceFiles/EcoLab1.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "EcoMain(pIUnk)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "83F4FC8D-58CF-4D4F-A958-652ED5E00C50 - d35f8e4af6ed57eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcoMain"
+                  moduleName = "Eco.Lab1UnitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vbashev/Dev/Eco.Lab1/UnitTestFiles/SourceFiles/EcoLab1.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "571">
+               </Location>
+               <Location
+                  uuid = "83F4FC8D-58CF-4D4F-A958-652ED5E00C50 - d35f8e4af6ed54d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EcoMain"
+                  moduleName = "Eco.Lab1UnitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vbashev/Dev/Eco.Lab1/UnitTestFiles/SourceFiles/EcoLab1.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "627">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

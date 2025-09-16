@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B2B6232B7C1541008E228C /* lib53884AFC93C448ECAA929C8D3A562281.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B2B6222B7C1541008E228C /* lib53884AFC93C448ECAA929C8D3A562281.a */; };
+		01B2B6252B7C1565008E228C /* lib84CC0A7DBABD44EEBE749C9A8312D37E.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B2B6242B7C1565008E228C /* lib84CC0A7DBABD44EEBE749C9A8312D37E.a */; };
+		01B2B6272B7C15A0008E228C /* lib82F73722057E47F3A2931ED27087694D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B2B6262B7C15A0008E228C /* lib82F73722057E47F3A2931ED27087694D.a */; };
+		01B2B6292B7C16F6008E228C /* lib4E7C20FEFAF341069B5C42497B462BBE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B2B6282B7C16F6008E228C /* lib4E7C20FEFAF341069B5C42497B462BBE.a */; };
+		01C7120227F20DF800AE9906 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C7120127F20DF800AE9906 /* Cocoa.framework */; };
+		01C7120427F20E0F00AE9906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C7120327F20E0F00AE9906 /* Foundation.framework */; };
+		01C7120F27F20FD800AE9906 /* EcoLab1.c in Sources */ = {isa = PBXBuildFile; fileRef = 01C7120D27F20FD800AE9906 /* EcoLab1.c */; };
+		01C7121E27F2119C00AE9906 /* lib00000000000000000000000000000100.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C7121D27F2119C00AE9906 /* lib00000000000000000000000000000100.a */; };
+		01C7122127F211C900AE9906 /* lib00000000000000000000000046534D31.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C7122027F211C900AE9906 /* lib00000000000000000000000046534D31.a */; };
+		01C7122327F211DC00AE9906 /* lib00000000000000000000000042757331.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C7122227F211DC00AE9906 /* lib00000000000000000000000042757331.a */; };
+		01C7122527F211EF00AE9906 /* lib0000000000000000000000004D656D31.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C7122427F211EF00AE9906 /* lib0000000000000000000000004D656D31.a */; };
+		01C7122927F212F900AE9906 /* lib1F5DF16EE1BF43B999A434ED38FE8F3A.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C7122827F212F900AE9906 /* lib1F5DF16EE1BF43B999A434ED38FE8F3A.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01C711F327F20D7900AE9906 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01B2B6222B7C1541008E228C /* lib53884AFC93C448ECAA929C8D3A562281.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib53884AFC93C448ECAA929C8D3A562281.a; path = "../../../../Eco.Framework/Eco.List1/BuildFiles/Mac/arm64 x86_64/StaticRelease/lib53884AFC93C448ECAA929C8D3A562281.a"; sourceTree = "<group>"; };
+		01B2B6242B7C1565008E228C /* lib84CC0A7DBABD44EEBE749C9A8312D37E.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib84CC0A7DBABD44EEBE749C9A8312D37E.a; path = "../../../../Eco.Framework/Eco.String1/BuildFiles/Mac/arm64 x86_64/StaticRelease/lib84CC0A7DBABD44EEBE749C9A8312D37E.a"; sourceTree = "<group>"; };
+		01B2B6262B7C15A0008E228C /* lib82F73722057E47F3A2931ED27087694D.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib82F73722057E47F3A2931ED27087694D.a; path = "../../../../Eco.Framework/Eco.Tree1/BuildFiles/Mac/arm64 x86_64/StaticRelease/lib82F73722057E47F3A2931ED27087694D.a"; sourceTree = "<group>"; };
+		01B2B6282B7C16F6008E228C /* lib4E7C20FEFAF341069B5C42497B462BBE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib4E7C20FEFAF341069B5C42497B462BBE.a; path = "../../../../Eco.Framework/Eco.Visitor1/BuildFiles/Mac/arm64 x86_64/StaticRelease/lib4E7C20FEFAF341069B5C42497B462BBE.a"; sourceTree = "<group>"; };
+		01C711F527F20D7900AE9906 /* Eco.Lab1UnitTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Eco.Lab1UnitTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C7120127F20DF800AE9906 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		01C7120327F20E0F00AE9906 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01C7120D27F20FD800AE9906 /* EcoLab1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = EcoLab1.c; path = ../../../UnitTestFiles/SourceFiles/EcoLab1.c; sourceTree = "<group>"; };
+		01C7121927F2117100AE9906 /* BuildFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BuildFiles; path = ../../../../Eco.System1/BuildFiles; sourceTree = "<group>"; };
+		01C7121D27F2119C00AE9906 /* lib00000000000000000000000000000100.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib00000000000000000000000000000100.a; path = "../../../../Eco.System1/BuildFiles/Mac/arm64 x86_64/Debug/lib00000000000000000000000000000100.a"; sourceTree = "<group>"; };
+		01C7122027F211C900AE9906 /* lib00000000000000000000000046534D31.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib00000000000000000000000046534D31.a; path = "../../../../Eco.FileSystemManagement1/BuildFiles/Mac/arm64 x86_64/Debug/lib00000000000000000000000046534D31.a"; sourceTree = "<group>"; };
+		01C7122227F211DC00AE9906 /* lib00000000000000000000000042757331.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib00000000000000000000000042757331.a; path = "../../../../Eco.InterfaceBus1/BuildFiles/Mac/arm64 x86_64/Debug/lib00000000000000000000000042757331.a"; sourceTree = "<group>"; };
+		01C7122427F211EF00AE9906 /* lib0000000000000000000000004D656D31.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib0000000000000000000000004D656D31.a; path = "../../../../Eco.MemoryManager1/BuildFiles/Mac/arm64 x86_64/Debug/lib0000000000000000000000004D656D31.a"; sourceTree = "<group>"; };
+		01C7122827F212F900AE9906 /* lib1F5DF16EE1BF43B999A434ED38FE8F3A.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib1F5DF16EE1BF43B999A434ED38FE8F3A.a; path = "../../../BuildFiles/Mac/arm64 x86_64/Debug/lib1F5DF16EE1BF43B999A434ED38FE8F3A.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01C711F227F20D7900AE9906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B2B6292B7C16F6008E228C /* lib4E7C20FEFAF341069B5C42497B462BBE.a in Frameworks */,
+				01B2B6272B7C15A0008E228C /* lib82F73722057E47F3A2931ED27087694D.a in Frameworks */,
+				01B2B6252B7C1565008E228C /* lib84CC0A7DBABD44EEBE749C9A8312D37E.a in Frameworks */,
+				01B2B6232B7C1541008E228C /* lib53884AFC93C448ECAA929C8D3A562281.a in Frameworks */,
+				01C7122927F212F900AE9906 /* lib1F5DF16EE1BF43B999A434ED38FE8F3A.a in Frameworks */,
+				01C7122527F211EF00AE9906 /* lib0000000000000000000000004D656D31.a in Frameworks */,
+				01C7122327F211DC00AE9906 /* lib00000000000000000000000042757331.a in Frameworks */,
+				01C7122127F211C900AE9906 /* lib00000000000000000000000046534D31.a in Frameworks */,
+				01C7121E27F2119C00AE9906 /* lib00000000000000000000000000000100.a in Frameworks */,
+				01C7120427F20E0F00AE9906 /* Foundation.framework in Frameworks */,
+				01C7120227F20DF800AE9906 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C711EC27F20D7900AE9906 = {
+			isa = PBXGroup;
+			children = (
+				01C7120B27F20F9400AE9906 /* Header Files */,
+				01C7120A27F20F8900AE9906 /* Shared Files */,
+				01C7120927F20F7F00AE9906 /* Source Files */,
+				01C711F627F20D7900AE9906 /* Products */,
+				01C7120027F20DF700AE9906 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01C711F627F20D7900AE9906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01C711F527F20D7900AE9906 /* Eco.Lab1UnitTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01C7120027F20DF700AE9906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01B2B6282B7C16F6008E228C /* lib4E7C20FEFAF341069B5C42497B462BBE.a */,
+				01B2B6262B7C15A0008E228C /* lib82F73722057E47F3A2931ED27087694D.a */,
+				01B2B6242B7C1565008E228C /* lib84CC0A7DBABD44EEBE749C9A8312D37E.a */,
+				01B2B6222B7C1541008E228C /* lib53884AFC93C448ECAA929C8D3A562281.a */,
+				01C7122827F212F900AE9906 /* lib1F5DF16EE1BF43B999A434ED38FE8F3A.a */,
+				01C7122427F211EF00AE9906 /* lib0000000000000000000000004D656D31.a */,
+				01C7122227F211DC00AE9906 /* lib00000000000000000000000042757331.a */,
+				01C7122027F211C900AE9906 /* lib00000000000000000000000046534D31.a */,
+				01C7121D27F2119C00AE9906 /* lib00000000000000000000000000000100.a */,
+				01C7121927F2117100AE9906 /* BuildFiles */,
+				01C7120327F20E0F00AE9906 /* Foundation.framework */,
+				01C7120127F20DF800AE9906 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01C7120927F20F7F00AE9906 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				01C7120D27F20FD800AE9906 /* EcoLab1.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		01C7120A27F20F8900AE9906 /* Shared Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Shared Files";
+			sourceTree = "<group>";
+		};
+		01C7120B27F20F9400AE9906 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01C711F427F20D7900AE9906 /* Eco.Lab1UnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C711FC27F20D7900AE9906 /* Build configuration list for PBXNativeTarget "Eco.Lab1UnitTest" */;
+			buildPhases = (
+				01C711F127F20D7900AE9906 /* Sources */,
+				01C711F227F20D7900AE9906 /* Frameworks */,
+				01C711F327F20D7900AE9906 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eco.Lab1UnitTest;
+			productName = Eco.Lab1UnitTest;
+			productReference = 01C711F527F20D7900AE9906 /* Eco.Lab1UnitTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01C711ED27F20D7900AE9906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					01C711F427F20D7900AE9906 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 01C711F027F20D7900AE9906 /* Build configuration list for PBXProject "Eco.Lab1UnitTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01C711EC27F20D7900AE9906;
+			productRefGroup = 01C711F627F20D7900AE9906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01C711F427F20D7900AE9906 /* Eco.Lab1UnitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01C711F127F20D7900AE9906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C7120F27F20FD800AE9906 /* EcoLab1.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01C711FA27F20D7900AE9906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ECO_LIB,
+					UGUID_UTILITY,
+					ECO_APPLE,
+					"DEBUG=1",
+					ECO_X86_64,
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../UnitTestFiles/HeaderFiles,
+					../../../SharedFiles,
+					"$(ECO_FRAMEWORK)/Eco.FileSystemManagement1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.MemoryManager1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Core1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.InterfaceBus1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.List1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.String1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Log1/SharedFiles",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"'../../../BuildFiles/Mac/$(ARCHS)/$(TARGET_NAME)$(CONFIGURATION)'",
+					"'$(ECO_FRAMEWORK)/Eco.System1/BuildFiles/Mac/$(ARCHS)/$(TARGET_NAME)$(CONFIGURATION)'",
+					"'$(ECO_FRAMEWORK)/Eco.InterfaceBus1/BuildFiles/Mac/$(ARCHS)/$(TARGET_NAME)$(CONFIGURATION)'",
+					"'$(ECO_FRAMEWORK)/Eco.MemoryManager1/BuildFiles/Mac/$(ARCHS)/$(TARGET_NAME)$(CONFIGURATION)'",
+					"'$(ECO_FRAMEWORK)/Eco.FileSystemManagement1/BuildFiles/Mac/$(ARCHS)/$(TARGET_NAME)$(CONFIGURATION)'",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		01C711FB27F20D7900AE9906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ECO_LIB,
+					UGUID_UTILITY,
+					ECO_APPLE,
+					ECO_MAC,
+					ECO_X86_64,
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../UnitTestFiles/HeaderFiles,
+					../../../SharedFiles,
+					"$(ECO_FRAMEWORK)/Eco.FileSystemManagement1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.MemoryManager1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Core1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.InterfaceBus1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.List1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.String1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Log1/SharedFiles",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"'../../../BuildFiles/Mac/$(ARCHS)/$(TARGET_NAME)$(CONFIGURATION)'",
+					"'$(ECO_FRAMEWORK)/Eco.System1/BuildFiles/Mac/$(ARCHS)/$(TARGET_NAME)$(CONFIGURATION)'",
+					"'$(ECO_FRAMEWORK)/Eco.InterfaceBus1/BuildFiles/Mac/$(ARCHS)/$(TARGET_NAME)$(CONFIGURATION)'",
+					"'$(ECO_FRAMEWORK)/Eco.MemoryManager1/BuildFiles/Mac/$(ARCHS)/$(TARGET_NAME)$(CONFIGURATION)'",
+					"'$(ECO_FRAMEWORK)/Eco.FileSystemManagement1/BuildFiles/Mac/$(ARCHS)/$(TARGET_NAME)$(CONFIGURATION)'",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		01C711FD27F20D7900AE9906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../UnitTestFiles/HeaderFiles,
+					../../../SharedFiles,
+					"$(ECO_FRAMEWORK)/Eco.FileSystemManagement1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.MemoryManager1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Core1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.InterfaceBus1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.List1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.String1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Log1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Tree1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Visitor1/SharedFiles",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"'../../../BuildFiles/Mac/$(ARCHS_STANDARD)/$(CONFIGURATION)'",
+					"'$(ECO_FRAMEWORK)/Eco.System1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+					"'$(ECO_FRAMEWORK)/Eco.InterfaceBus1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+					"'$(ECO_FRAMEWORK)/Eco.MemoryManager1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+					"'$(ECO_FRAMEWORK)/Eco.FileSystemManagement1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+					"'$(ECO_FRAMEWORK)/Eco.String1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+					"'$(ECO_FRAMEWORK)/Eco.List1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+					"'$(ECO_FRAMEWORK)/Eco.Tree1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+					"'$(ECO_FRAMEWORK)/Eco.Visitor1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01C711FE27F20D7900AE9906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					../../../HeaderFiles,
+					../../../UnitTestFiles/HeaderFiles,
+					../../../SharedFiles,
+					"$(ECO_FRAMEWORK)/Eco.FileSystemManagement1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.MemoryManager1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Core1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.InterfaceBus1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.List1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.String1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Log1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Tree1/SharedFiles",
+					"$(ECO_FRAMEWORK)/Eco.Visitor1/SharedFiles",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"'../../../BuildFiles/Mac/$(ARCHS_STANDARD)/$(CONFIGURATION)'",
+					"'$(ECO_FRAMEWORK)/Eco.System1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+					"'$(ECO_FRAMEWORK)/Eco.InterfaceBus1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+					"'$(ECO_FRAMEWORK)/Eco.MemoryManager1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+					"'$(ECO_FRAMEWORK)/Eco.FileSystemManagement1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+					"'$(ECO_FRAMEWORK)/Eco.String1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+					"'$(ECO_FRAMEWORK)/Eco.List1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+					"'$(ECO_FRAMEWORK)/Eco.Tree1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+					"'$(ECO_FRAMEWORK)/Eco.Visitor1/BuildFiles/Mac/$(ARCHS_STANDARD)/StaticRelease'",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01C711F027F20D7900AE9906 /* Build configuration list for PBXProject "Eco.Lab1UnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C711FA27F20D7900AE9906 /* Debug */,
+				01C711FB27F20D7900AE9906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01C711FC27F20D7900AE9906 /* Build configuration list for PBXNativeTarget "Eco.Lab1UnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C711FD27F20D7900AE9906 /* Debug */,
+				01C711FE27F20D7900AE9906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01C711ED27F20D7900AE9906 /* Project object */;
+}
